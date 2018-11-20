@@ -1,0 +1,17 @@
+body > div {
+	display: flex;
+	flex-flow: row;
+}
+
+body > div> div {
+	padding: 2em;
+}
+
+body > div> div:first-child {
+	width: 30%;
+	text-align: right;
+}
+
+body > div> div:last-child {width: 70%;}
+
+img {width: 4em;}
