@@ -1,6 +1,5 @@
 <?php
-
-	$dir    = "uploads/".$user;
+	$dir = "uploads/".$user;
 	$files1 = scandir($dir);
     unset($files1[0]);
     unset($files1[1]);
@@ -12,6 +11,14 @@
 	    <input type=\"file\" name=\"fileToUpload\" id=\"fileToUpload\">
 	    <input type=\"hidden\" name=\"dir\" value=\"$dir_special\" readonly>
 	    <input type=\"submit\" value=\"Wrzuć\" name=\"submit\">
+	</form><br></div>";
+
+	print "<div>
+    <form action=\"mkdir.php\" method=\"post\">
+	    Stwórz folder w folderze macierzystym:
+	    <input type=\"hidden\" name=\"dir_special\" value=\"$dir_special\" readonly>
+	    <input type=\"text\" name=\"new_dir\">
+	    <input type=\"submit\" value=\"Stwórz\" name=\"submit\">
 	</form><br></div>";
 
 	foreach($files1 as $result) {

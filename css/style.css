@@ -10,12 +10,18 @@ body > div> div {
 body > div> div:first-child {
 	width: 30%;
 	text-align: right;
+	background-color: dimgray;
+	color: white;
 }
 
-body > div> div:last-child {width: 70%;}
+body > div> div:last-child {
+	width: 70%;
+	background-color: ghostwhite;
+}
 
 img {width: 4em;}
 
 p {color: red;}
 
 .indent {padding-left: 2em;}
+

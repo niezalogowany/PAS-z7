@@ -12,4 +12,5 @@
 	    readfile($file);
 	    exit;
 	}
+	header("Refresh:0; url=index.php");
 ?>

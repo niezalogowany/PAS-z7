@@ -5,4 +5,5 @@
 	if (!file_exists($target_dir.$new_dir)) {
 	    mkdir($target_dir.$new_dir, 0777, true);
 	}
+	header("Refresh:0; url=index.php");
  ?>
