@@ -71,8 +71,8 @@
 					print "</div></div>";
 				}
 				else { // Było cały czas dobre logowanie
-					print "<div><div>Wyloguj z chmury<br><a href=\"wyloguj.php\">wyloguj</a></div><div>";  
-					print "</div><div>Przeglądaj chmurę<br><br>";
+					print "<div><div>Wyloguj z chmury<br><a href=\"wyloguj.php\">wyloguj</a></div>";  
+					print "<div>Przeglądaj chmurę<br><br>";
 					include 'mk.php';
 					print "</div></div>";
 				}

@@ -17,3 +17,5 @@ body > div> div:last-child {width: 70%;}
 img {width: 4em;}
 
 p {color: red;}
+
+.indent {padding-left: 2em;}
